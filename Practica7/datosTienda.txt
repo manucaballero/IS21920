@@ -1,0 +1,14 @@
+TiendaIS2
+Avda. de los Castros s/n
+
+    Senior
+      Nombre: Juan   Id: 1   TotalVentasMes: 1110.0
+      Nombre: Marta   Id: 2   TotalVentasMes: 200.0
+      Nombre: Marcos   Id: 3   TotalVentasMes: 300.0
+
+    Junior
+      Nombre: Pedro   Id: 4   TotalVentasMes: 400.0
+      Nombre: María   Id: 5   TotalVentasMes: 500.0
+
+    Prácticas
+      Nombre: Patricia   Id: 6   TotalVentasMes: 1600.0

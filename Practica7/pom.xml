@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>es.unican.is2</groupId>
+	<artifactId>Practica7</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<properties>
+		<!-- Lanzamiento en sonarcloud.io -->
+		<!--  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.organization>isuc</sonar.organization>
+		<sonar.login>
+			7581ebd0d74f43ef91ae6b9864776973b548c9d3
+		</sonar.login>-->
+
+		<!-- Lanzamiento en sonar local -->
+		<sonar.host.url>http://localhost:9000</sonar.host.url>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>fundamentos</groupId>
+			<artifactId>fundamentos</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+		</dependency>
+	</dependencies>
+
+
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-sonar-plugin</artifactId>
+				<version>2.6</version>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
